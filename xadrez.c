@@ -2,38 +2,98 @@
 #include <stdio.h>
  
 int main() {
-    printf("Desafio Xadrez, Novato!\n");
+    printf("Desafio Super Trunfo, Novato!\n");
 
-    int população, pontos_turisticos;
-    float área, PIB;
-    char país[50], estado[50];
-    char cidade[30];
+    char pais[50] = "Brasil" ;
+    char estado[50] = "Rio_de_Janeiro" ;
+    char cidade[30] = "Petropolis" ;
+    float populacao = 294.983 ;
+    int pontos_turisticos = 20 ;
+    float area = 791.1 ; 
+    float pib = 15.6 ;
+    int numero_da_carta = 1 ;
    
-    
-    printf("Digite o seu país: \n");
-    scanf("%s", &país);
-    
-    printf("Digite o seu estado: \n");
-    scanf("%s", &estado);
-    
-    printf("Digite sua cidade: \n");
-    scanf("%s", &cidade);
-    
-    printf("Digite a população: \n");
-    scanf("%d", &população);
-    
-    printf("Digite quantos pontos_turísticos tem: \n");
-    scanf("%d", &pontos_turisticos);
-    
-    printf("Digite a área da cidade: \n");
-    scanf("%f", &área);
-    
-    printf("Digite o PIB da cidade: \n");
-    scanf("%f", &PIB);
+    printf("pais = %s \n", pais);
 
-    printf("país: %s - estado: %s - cidade: %s", país, estado, cidade);
-    printf("população: %d - pontos_turisticos: %d", população, pontos_turisticos);
-    printf("área: %f - PIB: %f", área, PIB);
+    printf("estado = %s \n",estado);
+
+    printf("cidade = %s \n",cidade);
+
+    printf("Populacão = %1.fmilhões \n",populacao);
+
+    printf("pontos turísticos = %d \n", pontos_turisticos);
+
+    printf("Area = %.1f \n",area);
+
+    printf("PIB = %.1fmilhões \n",pib);
+
+    printf("numero da carta = %d \n",numero_da_carta);
+
+
+    printf("Digite o nome do seu pais:");
+    
+    scanf("%s", &pais);
+
+    printf("seu pais é: %s\n", pais);
+
+    printf("Digite o nome do seu estado:");
+    
+    scanf("%s", &estado);
+
+    printf("seu estado é: %s\n", estado);
+
+    printf("Digite o nome da sua cidade:");
+
+    scanf("%s", &cidade);
+
+    printf("o nome da cidade:%s\n", cidade);
+
+    printf("Digite a populacao da sua cidade:");
+
+    scanf("%f", &populacao);
+
+    printf("a população:%f\n", populacao);
+
+    printf("Digite os pontos turisticos da sua cidade:");
+
+    scanf("%d",&pontos_turisticos);
+
+    printf("o numero total de pontos turísticos:%d\n",pontos_turisticos);
+
+    printf("Digite a area da sua cidade:");
+
+    scanf("%f", &area);
+
+    printf("sua area em KM:%f\n", area);
+
+    printf("digite o PIB da sua cidade:");
+
+    scanf("%f", &pib);
+
+    printf("o PIB da sua cidade:%f\n",pib);
+
+    printf("Digite o numero da carta:");
+  
+    scanf("%d", &numero_da_carta);
+
+    printf("numero da sua carta:%d\n", numero_da_carta);
+
+
+    printf("pais = %s \n",pais);
+
+    printf("estado = %s \n",estado);
+
+    printf("cidade = %s \n",cidade);
+
+    printf("Populacão = %1.fmilhões \n",populacao);
+    
+    printf("Pontos turísticos = %d \n", pontos_turisticos);
+
+    printf("Area = %.1f \n",area);
+
+    printf("PIB = %.1fmilhões \n",pib);
+    
+    printf("Numero da carta = %d \n", numero_da_carta);
 
 
     return 0;
