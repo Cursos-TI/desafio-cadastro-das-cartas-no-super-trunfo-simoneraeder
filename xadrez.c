@@ -2,7 +2,7 @@
 #include <stdio.h>
  
 int main() {
-    printf("Desafio Super Trunfo, Novato!\n");
+    printf("Desafio Super Trunfo, Novato!\n Minha carta é:\n");
 
     char pais[50] = "Brasil" ;
     char estado[50] = "Rio_de_Janeiro" ;
@@ -12,23 +12,26 @@ int main() {
     float area = 791.1 ; 
     float pib = 15.6 ;
     int numero_da_carta = 1 ;
-   
-    printf("pais = %s \n", pais);
+
+    printf("pais = %s \n",pais);
 
     printf("estado = %s \n",estado);
 
     printf("cidade = %s \n",cidade);
 
     printf("Populacão = %1.fmilhões \n",populacao);
-
-    printf("pontos turísticos = %d \n", pontos_turisticos);
+    
+    printf("Pontos turísticos = %d \n", pontos_turisticos);
 
     printf("Area = %.1f \n",area);
 
     printf("PIB = %.1fmilhões \n",pib);
+    
+    printf("Numero da carta = %d \n", numero_da_carta);
 
-    printf("numero da carta = %d \n",numero_da_carta);
-
+    
+   
+    printf("Qual é a sua carta?\n");
 
     printf("Digite o nome do seu pais:");
     
@@ -79,22 +82,26 @@ int main() {
     printf("numero da sua carta:%d\n", numero_da_carta);
 
 
-    printf("pais = %s \n",pais);
+    printf("A carta escolhida foi...\n");
+     
+    
+    printf("pais = %s \n", pais);
 
     printf("estado = %s \n",estado);
 
     printf("cidade = %s \n",cidade);
 
     printf("Populacão = %1.fmilhões \n",populacao);
-    
-    printf("Pontos turísticos = %d \n", pontos_turisticos);
+
+    printf("pontos turísticos = %d \n", pontos_turisticos);
 
     printf("Area = %.1f \n",area);
 
     printf("PIB = %.1fmilhões \n",pib);
-    
-    printf("Numero da carta = %d \n", numero_da_carta);
 
+    printf("numero da carta = %d \n",numero_da_carta);
+
+    printf("Parabéns você ganhou o Super Trunfo\n");
 
     return 0;
 
