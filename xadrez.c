@@ -2,7 +2,8 @@
 #include <stdio.h>
  
 int main() {
-    printf("Desafio Super Trunfo, Novato!\n Minha carta é:\n");
+
+    printf("Desafio Super Trunfo, Novato!\n \tMinha carta é:\n");
 
     char pais[50] = "Brasil" ;
     char estado[50] = "Rio_de_Janeiro" ;
@@ -31,7 +32,7 @@ int main() {
 
     
    
-    printf("Qual é a sua carta?\n");
+    printf("Qual é a sua carta?\n\t");
 
     printf("Digite o nome do seu pais:");
     
@@ -82,7 +83,7 @@ int main() {
     printf("numero da sua carta:%d\n", numero_da_carta);
 
 
-    printf("A carta escolhida foi...\n");
+    printf("A carta escolhida foi...\n\t");
      
     
     printf("pais = %s \n", pais);
