@@ -7,13 +7,13 @@ int main() {
     printf("****Carta 1 ****\n");
 
     char pais[50] = "Brasil" ;
-    char estado[50] = "Rio_de_Janeiro" ;
-    char cidade[30] = "Petrópolis" ;
+    char estado[50] = "Bahia" ;
+    char cidade[30] = "Salvador" ;
     int populacao = 294983 ;
     int pontos_turisticos = 20 ;
     float area = 791.1 ; 
     float pib = 15.6 ;
-    int numero_da_carta = 1 ;
+    char codigo_da_carta = "B01" ;
 
    printf("País = %s \n",pais);
 
@@ -29,20 +29,20 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib);
     
-    printf("Número da carta = %d \n", numero_da_carta);
+    printf("Código da carta = %c \n", codigo_da_carta);
 
 
    
     printf("****Carta 2****:\n");
 
-    char pais_2[50] = "Uruguai" ;
-    char estado_2[50] = "Montevideu" ;
-    char cidade_2[30] = "Homonima";
+    char pais_2[50] = "Brasil" ;
+    char estado_2[50] = "Distrito Federal" ;
+    char cidade_2[30] = "Brasília";
     int populacao_2 = 1325968 ;
     int pontos_turisticos_2 = 10 ;
     float area_2 = 530.1 ; 
     float pib_2 = 45.6 ;
-    int numero_da_carta_2 = 2 ;
+    char codigo_da_carta_2 = "D02" ;
 
     printf("País = %s \n",pais_2);
 
@@ -58,7 +58,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib_2);
     
-    printf("Número da carta = %d \n", numero_da_carta_2);    
+    printf("Código da carta = %c \n", codigo_da_carta_2);    
 
    
     printf("Qual é a sua carta?\n\t");
@@ -105,11 +105,11 @@ int main() {
 
     printf("o PIB da sua cidade:%f\n",pib);
 
-    printf("Digite o número da carta:");
+    printf("Digite o código da carta:");
   
-    scanf("%d", &numero_da_carta);
+    scanf("%c", &codigo_da_carta);
 
-    printf("O número da sua carta:%d\n\t", numero_da_carta);
+    printf("O código da sua carta:%d\n\t", codigo_da_carta);
 
     
     printf("A carta escolhida foi...\n");
@@ -129,18 +129,10 @@ int main() {
 
     printf("PIB = %.1fBilhões \n",pib);
 
-    printf("NÚmero da carta = %d \n\t",numero_da_carta);
+    printf("Código da carta = %d \n\t",codigo_da_carta);
 
     printf("Parabéns você ganhou o Super Trunfo\n");
 
-
-
-
-
-
-    
-
     return 0;
-
 
 }

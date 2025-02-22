@@ -7,13 +7,13 @@ int main() {
     printf("**** Carta 1****\n ");
 
     char pais[50] = "Brasil" ;
-    char estado[50] = "Rio_de_Janeiro" ;
-    char cidade[30] = "Petropolis" ;
+    char estado[50] = "Bahia" ;
+    char cidade[30] = "Salvador" ;
     int populacao = 294983 ;
     int pontos_turisticos = 20 ;
     float area = 791.1 ; 
     float pib = 15.6 ;
-    int numero_da_carta = 1 ;
+    char codigo_da_carta = "B01" ;
     float quociente;
 
     printf("País = %s \n",pais);
@@ -30,7 +30,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib);
     
-    printf("Número da carta = %d \n", numero_da_carta);
+    printf ("Código da carta = %c \n", codigo_da_carta);
 
 
     printf("Digite a populacao da carta 1:");
@@ -63,14 +63,14 @@ int main() {
  
     printf("****Carta 2****:\n");
 
-    char pais_2[50] = "Uruguai" ;
-    char estado_2[50] = "Montevideu" ;
-    char cidade_2[30] = "Homonima";
+    char pais_2[50] = "Brasil" ;
+    char estado_2[50] = "Distrito Federal" ;
+    char cidade_2[30] = "Brasília";
     int populacao_2 = 1325968 ;
     int pontos_turisticos_2 = 10 ;
     float area_2 = 530.1 ; 
     float pib_2 = 45.6 ;
-    int numero_da_carta_2 = 2 ;
+    char codigo_da_carta_2 = "D02" ;
 
     printf("País = %s \n",pais_2);
 
@@ -86,7 +86,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib_2);
     
-    printf("Número da carta = %d \n", numero_da_carta_2);    
+    printf("Código da carta = %c \n", codigo_da_carta_2);    
 
 
     printf("Digite a População da Carta 2:");
