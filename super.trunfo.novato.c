@@ -6,6 +6,8 @@ int main() {
     printf("Desafio Super Trunfo, Novato!\n \t");
     printf("****Carta 1 ****\n");
 
+// Seguem as variáveis da Carta 1
+
     char pais[50] = "Brasil" ;
     char estado[50] = "Bahia" ;
     char cidade[30] = "Salvador" ;
@@ -14,6 +16,8 @@ int main() {
     float area = 791.1 ; 
     float pib = 15.6 ;
     char codigo = "B01" ;
+
+    // printf, mostrando suas variáveis o que são.
 
    printf("País = %s \n",pais);
 
@@ -31,7 +35,7 @@ int main() {
     
     printf("Código = %c \n", codigo);
 
-
+// Seguem as variáveis da Carta 2
    
     printf("****Carta 2****:\n");
 
@@ -43,6 +47,8 @@ int main() {
     float area_2 = 530.1 ; 
     float pib_2 = 45.6 ;
     char codigo_2 = "D02" ;
+
+       // printf, mostrando suas variáveis o que são.
 
     printf("País = %s \n",pais_2);
 
@@ -60,7 +66,8 @@ int main() {
     
     printf("Código = %c \n", codigo_2);    
 
-   
+   // interação com o usuário
+
     printf("Qual é a sua carta?\n\t");
 
     printf("Digite o nome do seu país:");

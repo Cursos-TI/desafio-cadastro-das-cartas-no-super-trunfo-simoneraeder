@@ -6,6 +6,9 @@ int main() {
     
     printf("**** Carta 1****\n ");
 
+    
+// Seguem as variáveis da Carta 1
+
     char pais[50] = "Brasil" ;
     char estado[50] = "Bahia" ;
     char cidade[30] = "Salvador" ;
@@ -51,6 +54,8 @@ int main() {
 
     printf("o PIB da sua cidade:%f\n",pib);
 
+// A divisão para achar a Dens. Populacional e o PIB per Capita da carta 1
+
     quociente = (populacao / area) ;
 
     printf("A Densidade Populacional da carta 1 é: %f\n", quociente);
@@ -62,6 +67,9 @@ int main() {
 
  
     printf("****Carta 2****:\n");
+
+
+// Seguem as variáveis da Carta 2
 
     char pais_2[50] = "Brasil" ;
     char estado_2[50] = "Distrito Federal" ;
@@ -107,6 +115,9 @@ int main() {
 
     printf("o PIB da sua cidade:%f\n",pib_2);
 
+// A divisão para achar a Dens. Populacional e o PIB per Capita da carta 2
+
+
     quociente = (populacao_2 / area_2) ;
 
     printf("A Densidade Populacional da carta 2 é: %f\n", quociente);
@@ -114,18 +125,6 @@ int main() {
     quociente = (pib_2 / populacao_2) ;
 
     printf("O PIB Per Capita da carta 2 é: %f\n\t", quociente);
-
-
-
-
-
-
-
-
-
-
-
-
 
     return 0 ;
 }
