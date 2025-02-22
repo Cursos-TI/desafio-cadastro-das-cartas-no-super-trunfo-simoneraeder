@@ -13,7 +13,7 @@ int main() {
     int pontos_turisticos = 20 ;
     float area = 791.1 ; 
     float pib = 15.6 ;
-    char codigo_da_carta = "B01" ;
+    char codigo = "B01" ;
 
    printf("País = %s \n",pais);
 
@@ -29,7 +29,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib);
     
-    printf("Código da carta = %c \n", codigo_da_carta);
+    printf("Código = %c \n", codigo);
 
 
    
@@ -42,7 +42,7 @@ int main() {
     int pontos_turisticos_2 = 10 ;
     float area_2 = 530.1 ; 
     float pib_2 = 45.6 ;
-    char codigo_da_carta_2 = "D02" ;
+    char codigo_2 = "D02" ;
 
     printf("País = %s \n",pais_2);
 
@@ -58,7 +58,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib_2);
     
-    printf("Código da carta = %c \n", codigo_da_carta_2);    
+    printf("Código = %c \n", codigo_2);    
 
    
     printf("Qual é a sua carta?\n\t");
@@ -107,9 +107,9 @@ int main() {
 
     printf("Digite o código da carta:");
   
-    scanf("%c", &codigo_da_carta);
+    scanf("%c", &codigo);
 
-    printf("O código da sua carta:%d\n\t", codigo_da_carta);
+    printf("O código da sua carta:%d\n\t", codigo);
 
     
     printf("A carta escolhida foi...\n");
@@ -129,7 +129,7 @@ int main() {
 
     printf("PIB = %.1fBilhões \n",pib);
 
-    printf("Código da carta = %d \n\t",codigo_da_carta);
+    printf("Código da carta = %d \n\t",codigo);
 
     printf("Parabéns você ganhou o Super Trunfo\n");
 
