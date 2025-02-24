@@ -142,13 +142,21 @@ soma = (populacao_2 + area_2 + pib_2 + pontos_turisticos_2 + pib_per_capita_2 + 
 
 printf("O super Poder da Carta 2 é: %f\n\t", soma);
 
+
+printf("Resposta 0 é Não, Resposta 1 é Sim\n\t");
+
   
-float comparison = (float) pontos_turisticos == pontos_turisticos_2;
-printf(" Pontos Turísticos Bahia == Pontos Turísticos DF : %1.f\n", comparison);  
+float comparison = (float) pontos_turisticos >= pontos_turisticos_2;
+printf(" Pontos Turísticos Bahia >= Pontos Turísticos DF : %1.f\n", comparison);  
+printf("A carta 2 é maior que a carta 1\n\t");
 
 
-float comparison = populacao != populacao_2;
-printf(" População Bahia != População DF : %1.f\n", comparison);  
+ populacao = 20 ;
+ populacao_2 = 10 ;
+
+ printf("População da Bahia > Populaçao do DF %d\n", populacao > populacao_2);
+ printf("A carta 1 é maior que a carta 2\n\t");
+
 
     return 0 ;
 }
