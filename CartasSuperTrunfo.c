@@ -71,8 +71,8 @@ int main() {
  soma = (populacao + area + pib + pontos_turisticos + pib_per_capita + densidade_populacional);
 
  printf("O super Poder da Carta 1 é: %f\n\t", soma);
- 
- 
+
+  
     printf("****Carta 2****:\n");
 
 
@@ -142,9 +142,11 @@ soma = (populacao_2 + area_2 + pib_2 + pontos_turisticos_2 + pib_per_capita_2 + 
 printf("O super Poder da Carta 2 é: %f\n\t", soma);
 
 
+float comparison = (float) populacao <= populacao_2;
 
+    printf(" População Bahia <= População DF : %f\n", comparison);
 
-
+   
 
     return 0 ;
 }
