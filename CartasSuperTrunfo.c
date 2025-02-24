@@ -18,7 +18,8 @@ int main() {
     float pib = 15.0 ;
     float pib_per_capita = 0.0510;
     float densidade_populacional = 0.372;
-    char codigo = "B01" ;
+    char codigo = "B 01" ;
+    int super_poder_da_carta =  13000;
     float quociente;
     float soma;
   
@@ -88,7 +89,8 @@ int main() {
     float pib_2 = 45.0 ;
     float pib_per_capita_2 = 0.3409;
     float densidade_populacional_2 = 0.24905; 
-    char codigo_2 = "D02" ;
+    char codigo_2 = "D 02" ;
+    int super_poder_da_carta_2 = 33000 ;
 
     printf("País = %s \n",pais_2);
 
@@ -148,15 +150,44 @@ printf("Resposta 0 é Não, Resposta 1 é Sim\n\t");
   
 float comparison = (float) pontos_turisticos >= pontos_turisticos_2;
 printf(" Pontos Turísticos Bahia >= Pontos Turísticos DF : %1.f\n", comparison);  
-printf("A carta 2 é maior que a carta 1\n\t");
+printf("A carta 2 ganhou\n\t");
 
 
- populacao = 20 ;
- populacao_2 = 10 ;
+ populacao = 294 ;
+ populacao_2 = 132 ;
 
  printf("População da Bahia > Populaçao do DF %d\n", populacao > populacao_2);
- printf("A carta 1 é maior que a carta 2\n\t");
+ printf("A carta 1 ganhou\n\t");
 
+ area =  791 ;
+ area_2 = 530 ;
+
+ printf("A Área da Bahia < A Área do DF %d\n", area < area_2);
+ printf("A carta 1 ganhou\n\t");
+
+ pib =  15 ;
+ pib_2 = 45 ;
+
+ printf("A Área da Bahia < A Área do DF %d\n", pib < pib_2);
+ printf("A carta 2 ganhou\n\t");
+
+ pib_per_capita = 510  ;
+ pib_per_capita_2 = 340 ;
+
+ printf("A Área da Bahia > A Área do DF %d\n", pib_per_capita > pib_per_capita_2);
+ printf("A carta 1 ganhou\n\t");
+
+ densidade_populacional=  372;
+ densidade_populacional_2 = 249 ;
+
+ printf("A Densidade Populacional da Bahia != A Densidade Populacional do DF %d\n", densidade_populacional != densidade_populacional_2);
+ printf("A carta 1 ganhou\n\t");
+
+ super_poder_da_carta=  1110.000;
+ super_poder_da_carta_2 = 72700 ;
+
+ printf(" O Super Poder da Carta 1 < O Super Poder da Carta 2 %d\n", super_poder_da_carta < super_poder_da_carta_2);
+ printf("A carta 1 ganhou\n\t");
 
     return 0 ;
 }
