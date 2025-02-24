@@ -35,19 +35,8 @@ int main() {
     printf("Área = %.1fkm² \n",area);
 
     printf("PIB = %.1fbilhões \n",pib);
-
-    printf(" PIB Per Capita = %.1fbilhões \n",pib_per_capita);
-
-    printf(" Densidade Populacional = %.1fbilhões \n",densidade_populacional);
     
     printf ("Código =  %c \n", codigo);
-
-    //A soma do Super Poder da carta 1
-
-soma = (populacao + area + pib + pontos_turisticos + pib_per_capita + densidade_populacional);
-
-printf("O super Poder da Carta 1 é: %f\n\t", soma);
-
 
     printf("Digite a populacao da carta 1:");
 
@@ -77,7 +66,12 @@ printf("O super Poder da Carta 1 é: %f\n\t", soma);
 
     printf("O PIB Per Capita da carta 1 é: %f\n\t", quociente);
 
+ //A soma do Super Poder da carta 1
 
+ soma = (populacao + area + pib + pontos_turisticos + pib_per_capita + densidade_populacional);
+
+ printf("O super Poder da Carta 1 é: %f\n\t", soma);
+ 
  
     printf("****Carta 2****:\n");
 
@@ -91,6 +85,8 @@ printf("O super Poder da Carta 1 é: %f\n\t", soma);
     int pontos_turisticos_2 = 10 ;
     float area_2 = 530.1 ; 
     float pib_2 = 45.6 ;
+    float pib_per_capita_2 = 0.3409;
+    float densidade_populacional_2 = 0.24905; 
     char codigo_2 = "D02" ;
 
     printf("País = %s \n",pais_2);
@@ -139,6 +135,11 @@ printf("O super Poder da Carta 1 é: %f\n\t", soma);
 
     printf("O PIB Per Capita da carta 2 é: %f\n\t", quociente);
 
+//A soma do Super Poder da carta 2
+
+soma = (populacao_2 + area_2 + pib_2 + pontos_turisticos_2 + pib_per_capita_2 + densidade_populacional_2);
+
+printf("O super Poder da Carta 2 é: %f\n\t", soma);
 
 
 
