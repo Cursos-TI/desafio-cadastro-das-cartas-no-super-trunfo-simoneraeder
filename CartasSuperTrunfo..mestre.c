@@ -184,7 +184,7 @@ printf("A carta 2 ganhou\n\t");
  printf("A carta 1 ganhou\n\t");
 
  super_poder_da_carta=  1110.000;
- super_poder_da_carta_2 = 72700 ;
+ super_poder_da_carta_2 = 727 ;
 
  printf(" O Super Poder da Carta 1 < O Super Poder da Carta 2 %d\n", super_poder_da_carta < super_poder_da_carta_2);
  printf("A carta 1 ganhou\n\t");
