@@ -37,7 +37,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib);
     
-    printf ("Código =  %c \n", codigo);
+    printf ("Código =  %[^\n]", codigo);
 
     printf("Digite a populacao da carta 1:");
 
@@ -104,7 +104,7 @@ int main() {
 
     printf("PIB = %.1fbilhões \n",pib_2);
     
-    printf("Código = %c \n", codigo_2);    
+    printf("Código = %[^\n]", codigo_2);    
 
 
     printf("Digite a População da Carta 2:");
