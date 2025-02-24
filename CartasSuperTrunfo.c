@@ -21,6 +21,7 @@ int main() {
     char codigo = "B01" ;
     float quociente;
     float soma;
+    float comparison;
 
     printf("País = %s \n",pais);
 
@@ -141,16 +142,11 @@ soma = (populacao_2 + area_2 + pib_2 + pontos_turisticos_2 + pib_per_capita_2 + 
 
 printf("O super Poder da Carta 2 é: %f\n\t", soma);
 
+  
+float comparison = (float) pontos_turisticos == pontos_turisticos_2;
+printf(" Pontos Turísticos Bahia == Pontos Turísticos DF : %1.f\n", comparison);  
 
-float comparison = (float) populacao != populacao_2;
-printf(" Populaçao Bahia != População DF : %1.f\n", comparison);  
 
-   
-   
-    float comparison = (float) pontos_turisticos == pontos_turisticos_2;
-    printf(" Pontos Turísticos Bahia == Pontos Turísticos DF : %1.f\n", comparison);   
-
-    printf("pontos_turisticos == pontos_turisticos_2: %f\n", pontos_turisticos  == pontos_turisticos_2 );
 
     return 0 ;
 }

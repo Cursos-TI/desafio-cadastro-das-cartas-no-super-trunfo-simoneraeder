@@ -139,7 +139,10 @@ int main() {
     printf("Código da carta = %d \n\t",codigo);
 
     printf("Parabéns você ganhou o Super Trunfo\n");
-
+   
+    float comparison = (float) pontos_turisticos == pontos_turisticos_2;
+    printf(" Pontos Turísticos Bahia == Pontos Turísticos DF : %1.f\n", comparison);   
+    
     return 0;
 
 }
