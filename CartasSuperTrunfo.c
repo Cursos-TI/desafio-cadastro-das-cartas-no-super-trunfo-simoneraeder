@@ -16,8 +16,11 @@ int main() {
     int pontos_turisticos = 20 ;
     float area = 791.1 ; 
     float pib = 15.6 ;
+    float pib_per_capita = 50.85;
+    float densidade_populacional = 0.372
     char codigo = "B01" ;
     float quociente;
+    float soma;
 
     printf("País = %s \n",pais);
 
@@ -32,8 +35,18 @@ int main() {
     printf("Área = %.1fkm² \n",area);
 
     printf("PIB = %.1fbilhões \n",pib);
+
+    printf(" PIB Per Capita = %.1fbilhões \n",pib_per_capita);
+
+    printf(" Densidade Populacional = %.1fbilhões \n",densidade_populacional);
     
     printf ("Código =  %c \n", codigo);
+
+    //A soma do Super Poder da carta 1
+
+soma = (populacao + area + pib + pontos_turisticos + pib_per_capita + densidade_populacional);
+
+printf("O super Poder da Carta 1 é: %f\n\t", soma);
 
 
     printf("Digite a populacao da carta 1:");
