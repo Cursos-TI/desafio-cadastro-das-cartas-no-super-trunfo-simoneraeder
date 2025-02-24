@@ -12,16 +12,16 @@ int main() {
     char pais[50] = "Brasil" ;
     char estado[50] = "Bahia" ;
     char cidade[30] = "Salvador" ;
-    unsigned long int populacao = 294983 ;
-    int pontos_turisticos = 20 ;
-    float area = 791.1 ; 
-    float pib = 15.6 ;
-    float pib_per_capita = 50.85;
+    unsigned long int populacao = 294000 ;
+    int pontos_turisticos = 10 ;
+    float area = 791.0 ; 
+    float pib = 15.0 ;
+    float pib_per_capita = 0.0510;
     float densidade_populacional = 0.372;
     char codigo = "B01" ;
     float quociente;
     float soma;
-    float comparison;
+  
 
     printf("País = %s \n",pais);
 
@@ -82,10 +82,10 @@ int main() {
     char pais_2[50] = "Brasil" ;
     char estado_2[50] = "Distrito Federal" ;
     char cidade_2[30] = "Brasília";
-    unsigned long int populacao_2 = 1325968 ;
-    int pontos_turisticos_2 = 10 ;
-    float area_2 = 530.1 ; 
-    float pib_2 = 45.6 ;
+    unsigned long int populacao_2 = 132000 ;
+    int pontos_turisticos_2 = 20 ;
+    float area_2 = 530.0; 
+    float pib_2 = 45.0 ;
     float pib_per_capita_2 = 0.3409;
     float densidade_populacional_2 = 0.24905; 
     char codigo_2 = "D02" ;
@@ -147,6 +147,8 @@ float comparison = (float) pontos_turisticos == pontos_turisticos_2;
 printf(" Pontos Turísticos Bahia == Pontos Turísticos DF : %1.f\n", comparison);  
 
 
+float comparison = populacao != populacao_2;
+printf(" População Bahia != População DF : %1.f\n", comparison);  
 
     return 0 ;
 }
