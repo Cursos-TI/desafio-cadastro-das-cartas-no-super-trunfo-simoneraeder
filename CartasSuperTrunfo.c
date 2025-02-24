@@ -17,7 +17,7 @@ int main() {
     float area = 791.1 ; 
     float pib = 15.6 ;
     float pib_per_capita = 50.85;
-    float densidade_populacional = 0.372
+    float densidade_populacional = 0.372;
     char codigo = "B01" ;
     float quociente;
     float soma;
